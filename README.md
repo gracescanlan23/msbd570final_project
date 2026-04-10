@@ -9,8 +9,6 @@
 - [Notebooks & Workflow](#notebooks--workflow)
 - [Reproducibility](#reproducibility)
 - [Outputs](#outputs)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Project Overview
 
@@ -64,20 +62,13 @@ Each notebook contains narrative cells explaining the steps, and code cells you 
 ## Reproducibility
 
 - Use the provided `requirements.txt` to create a consistent environment.
-- Notebooks set random seeds where modeling is performed; if you add new randomized steps, set seeds explicitly.
+- Notebooks set random seeds where modeling is performed
 - To reproduce results: install deps, open notebooks in order, and run all cells.
 
 ## Outputs
 
 Generated artifacts (figures, tables) are saved to the `outputs/` directory. Inspect that folder after running the visualization notebook.
 
-## Contributing
-
-If you want to extend this project:
-
-- Add new notebooks or scripts under `notebooks`.
-- Update `requirements.txt` if you add new Python packages.
-- Open an issue or send a pull request with proposed changes.
 
 ---
 
